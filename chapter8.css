@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list-item{
+  margin-bottom: 50px;
+}
+
+.list-item p{
+  padding: 20px;
+}
+
+.list-item p:nth-child(odd){
+  background-color: #eee;
+}
+
+.box-item{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  background-color: #ffd700;
+}
+
+.box:nth-child(odd){
+  background-color: #ff8c00;
+}
