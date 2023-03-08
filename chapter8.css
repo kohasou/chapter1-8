@@ -34,6 +34,12 @@ main{
   background-color: #ffd700;
 }
 
-.box:nth-child(odd){
+.box:first-child,
+.box:nth-child(5),
+.box:last-child{
   background-color: #ff8c00;
+}
+
+.box:nth-child(3n){
+  margin-right: 0;
 }
